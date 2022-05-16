@@ -1,20 +1,18 @@
  EMSC4033 project plan template
 
 ## Project title
+Velocity structure of Jakarta Basin
 
 ## Executive summary
 
-In one to two sentences, explain the background, the broad goals of the project and what the specific outcomes will be.
-
-**Example:** _(this is based on the seismic monitoring dashboard that Louis showed). Seismic stations can be used to monitor human noise over the course of the day. Some seismometers stream data live to a server and so this processing can be done in near-real time. In this project I plan to build an online dashboard which processes the data once a day and uploads the results to github as 1) raw data, 2) an image that can be embedded in websites, 3) an updating csv table in github. I also plan to use the github "actions" engine to provide all the necessary processing power._
+I am going to plot the three-dimensional model of shear-wave velocity (Vs) in a Jakarta Basin, which will be my research project in the future. 
+After plotting the 3D model, I would like to write the function that create the two-dimensional cross-sections out of the 3D model to be able to 
+display the basin depth as the sharp changes in the velocity profile.
 
 ## Goals
 
-- Goal 1
-- Goal 2
-- ...
-
-(Write things that you can assess whether they have been accomplished. For example, a goal like “improve visualisation of ocean output” is vague... But a goal that reads “implement functionality to plot streamlines of horizontal velocities in various slices from 3D ocean output” is specific enough.)
+- Plot 3D model of shear-wave velocities of a sedimentary basin
+- Create the function that enable the multi-orientation cross-section of 3D shear-velocity model
 
 ## Background and Innovation  
 

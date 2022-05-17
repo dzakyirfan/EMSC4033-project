@@ -5,30 +5,29 @@ Velocity structure of Jakarta Basin
 
 ## Executive summary
 
-I am going to plot the three-dimensional model of shear-wave velocity (Vs) in a Jakarta Basin, which will be my research project in the future. 
-After plotting the 3D model, I would like to write the function that create the two-dimensional cross-sections out of the 3D model to be able to 
-display the basin depth as the sharp changes in the velocity profile.
+Visualizations of the three-dimensional model of shear-wave velocity (Vs) in a Jakarta Basin. Velocity properties of a basin are influenced by depth, geometries, and lithology of the basin. This makes the shear-waves velocities of a basin can be highly heterogeneous. The visualizations help the analysis of basin shear-wave velocity, make it easier to reveal the pattern and changes. After the 3D model was created, we can extract 2D cross-sections out of it for more apparent image of velocity distribution in a requested orientation. 
 
 ## Goals
 
-- Plot 3D model of shear-wave velocities of a sedimentary basin
+- Make a function to import hundreds of raw txt file into a single, structured numpy array that is ready for data analysis
+- Visualize 3D model of shear-wave velocities of a sedimentary basin
 - Create the function that enable the multi-orientation cross-section of 3D shear-velocity model
 
 ## Background and Innovation  
 
-_Give more details on the scientific problem that you are working on and how this project will advance the discipline or help with your own research.
-(Where applicable, describe how people have been achieving this goal up to now, talk about existing packages, their limitations, whether you can generalise something to help other people use your code)._
+A sedimentary basin consists of different geological characteristics from rocks around the basin. The difference leads to the contrasting properties and may have an implication in natural hazards, where sedimentary basin could amplify and extend the propagating seismic waves. What makes it more challenging is that there are variation of properties inside the basin. This 8033 project is the precursor of my research project, to visualize the shear-wave velocity properties of a basin in which the different values have different response toward the passing earthquake. This project can be done using Python, specifically with pacakges such as Numpy, Matplotlib, Plotly, and PyVista. While Numpy and Matplotlib are rather basic packages for data arranging and visualizations, PyVista is able to create 2D line and contour surfaces that will be useful for this project.
 
 ## Resources & Timeline
 
-_What do you have at your disposal already that will help the project along. Did you convince somebody else to help you ? Are there already some packages you can build upon. What makes it possible to do this project in the time available. Do you intend to continue this project in the future ?_
+I could be able to start this project thanks to:
+- The shear-wave velocity data from Rexha Verdhona Ry as part of his research project that I will continue later on
+- The suggestion and approval of Phil Cummins as my research supervisor
 
-(For example:
-  - I’ll be using data of X from satellite and then also data from baby blue seals…
-  - I’ll step on existing package Y and build extra functionality on top of class W.
-  - I’ll use textbook Z that describes algorithms a, b, c
-  - …
-)
+To build this project, I will do the following steps:
+  - I will be using os, glob, and Numpy to build a function for exporting and arranging 442 raw data into one structured Numpy array that is ready for visualization
+  - I will use the scatter plot feature of Matplotlib to visualize the velocity distribution with respect to the coordinates and depth.
+  - I will also use a feature from Plotly to visualize the 3D model and compare it with the Matplotlib
+  - The 3D model that I have visualized is then used for making the 2D cross-sections using the PyVista. I will make the vertical cross-sections from north-south, east-west, and diagonal sections
 
 ## Testing, validation, documentation
 

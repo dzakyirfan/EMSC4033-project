@@ -30,6 +30,9 @@ To build this project, I will do the following steps:
   - The 3D model that I have visualized is then used for making the 2D cross-sections using the PyVista. I will make the vertical cross-sections from north-south, east-west, and diagonal sections
 
 ## Testing, validation, documentation
+- Testing for data import will be created to assert the correct number of files uploaded, and number of rows and columns in a final array
+- Testing for visualization to assert that the model is executable
+- Testing for cross-section or slicing to assert the minimum number of slicing has been met (at least 3)
 
 **Note:** You need to think about how you will know your code is correct and achieves the goals that are set out above (specific tests that can be implemented automatically using, for example, the `assert` statement in python.)  It can be really helpful if those tests are also part of the documentation so that when you tell people how to do something with the code, the example you give is specifically targetted by some test code.
 

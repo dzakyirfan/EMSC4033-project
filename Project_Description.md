@@ -26,7 +26,7 @@ I could be able to start this project thanks to:
 To build this project, I will do the following steps:
   - I will be using os, glob, and Numpy to build a function for exporting and arranging 442 raw data into one structured Numpy array that is ready for visualization
   - I will use the scatter plot feature of Matplotlib to visualize the velocity distribution with respect to the coordinates and depth.
-  - I will also use a feature from Plotly to visualize the 3D model and compare it with the Matplotlib
+  - I will also use a feature from Plotly and PyVista to visualize the 3D model and compare it with the Matplotlib
   - The 3D model that I have visualized is then used for making the 2D cross-sections using the PyVista. I will make the vertical cross-sections from north-south, east-west, and diagonal sections
 
 ## Testing, validation, documentation
